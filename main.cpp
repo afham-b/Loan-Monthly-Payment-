@@ -22,3 +22,6 @@ int main (){
   cout << "You monthly payment is " << payment(amount_brwd, interest_rate, months) <<endl; 
   return 0;
 }
+
+// warning: program will currently take negative values 
+// can be further improved using input validation
